@@ -11,7 +11,7 @@ Make sure you have [**Node >= 6**](https://nodejs.org/en/download/),  [**Git**](
 git clone https://github.com/mjansrud/mBot.git 
 ```
 
-***Repeat for every folder**** 
+**Repeat for every folder***
 1) Change directory to each sub-repository, command for changing directory will not be repeated
 ```
 cd api
