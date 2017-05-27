@@ -21,7 +21,7 @@ cd api
 npm install
 ```
 
-Required environmental variables for API server ( /api /)
+Required environmental variables for API server ( folder /api/ )
 ```
 NODE_ENV_AUTH_JWKS_URL=https://your-domain-for-auth.eu.auth0.com/.well-known/jwks.json
 NODE_ENV_AUTH_AUDIENCE=https://your-domain.com
