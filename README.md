@@ -41,7 +41,8 @@ Open a new terminal, start the trader ( /trader/ ):
 node server.js
 ```
 
-Required environmental variables for frontend server ( /frontend/ )
+Required environmental variables for frontend server ( /frontend/ ) </br>
+Copy the .env.example to .env and replace with your credentials
 ```
 REACT_APP_URL=http://localhost:3000
 REACT_APP_URL_API=http://localhost:3001
