@@ -1,8 +1,8 @@
 [submodule "api"]
 	path = api
 	url = https://github.com/mjansrud/mBot-API
-[submodule "trader"]
-	path = trader
+[submodule "Trader"]
+	path = Trader
 	url = https://github.com/mjansrud/mBot-Trader
 [submodule "frontend"]
 	path = frontend
