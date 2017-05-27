@@ -1,5 +1,5 @@
 # mBot
-A bot trading digital currencies as bitcoin 
+A trading bot for digital currencies such as bitcoin </br>
 mBot is developed using reactJS (frontend), node.js (backend) and postgresql.
 
 # Getting started
