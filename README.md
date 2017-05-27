@@ -14,7 +14,7 @@ git clone https://github.com/mjansrud/mBot.git
 **Repeat for every folder**
 1) Change directory to each sub-repository, command for changing directory will not be repeated
 ```
-cd api
+cd mBot/api
 ```
 2) Install the node modules required
 ```
