@@ -34,7 +34,7 @@ Start the service:
 node server.js
 ```
 
-Open a new terminal, start the service ( /bot/ ):
+Open a new terminal, start the trader ( /trader/ ):
 ```
 node server.js
 ```
@@ -50,7 +50,7 @@ REACT_APP_AUTH_SCOPE=example
 REACT_APP_AUTH_AUDIENE=https://your-domain.com
 ```
 
-Open a new terminl, start the reactjs web server :
+Open a new terminal, start the reactjs web server :
 ```
 npm run start
 ```
