@@ -50,7 +50,10 @@ REACT_APP_AUTH_SCOPE=example
 REACT_APP_AUTH_AUDIENE=https://your-domain.com
 ```
 
-Start the reactjs web server :
+Open a new terminl, start the reactjs web server :
 ```
 npm run start
 ```
+
+# TODO
+Make a .sh script starting all services.
