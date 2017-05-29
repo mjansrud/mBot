@@ -21,9 +21,15 @@ cd mBot/api
 npm install
 ```
 
-Required environmental variables for API server ( folder /api/ ) </br>
-Create an account at [**Auth0**](http://auth0.com/), make a new API and Single Page Application Client
+Required environmental variables for API server ( folder **/api/** ) </br>
+1) Create an account at [**Auth0**](http://auth0.com/), make a new API and Single Page Application Client
+2) Copy the .env.example to .env and replace with your credentials
 ```
+NODE_ENV={your-environment|test|production}
+NODE_ENV_DATABASE_HOST=localhost
+NODE_ENV_DATABASE_NAME=mbot
+NODE_ENV_DATABASE_USERNAME={your-database-username}
+NODE_ENV_DATABASE_PASSWORD={your-database-password}
 NODE_ENV_AUTH_JWKS_URL=https://your-domain-for-auth.eu.auth0.com/.well-known/jwks.json
 NODE_ENV_AUTH_AUDIENCE=https://your-domain.com
 NODE_ENV_AUTH_ISSUER=https://your-domain-for-auth.eu.auth0.com
@@ -35,12 +41,13 @@ Start the service:
 node server.js
 ```
 
-Open a new terminal, start the trader ( /trader/ ):
+Open a new terminal, start the trader ( **/trader/** ):
 ```
 node server.js
 ```
 
-Required environmental variables for frontend server ( /frontend/ )
+Required environmental variables for frontend server ( **/frontend/** ) </br>
+Copy the .env.example to .env and replace with your credentials
 ```
 REACT_APP_URL=http://localhost:3000
 REACT_APP_URL_API=http://localhost:3001
