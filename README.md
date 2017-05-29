@@ -21,7 +21,7 @@ cd mBot/api
 npm install
 ```
 
-Required environmental variables for API server ( folder /api/ ) </br>
+Required environmental variables for API server ( folder **/api/** ) </br>
 1) Create an account at [**Auth0**](http://auth0.com/), make a new API and Single Page Application Client
 2) Copy the .env.example to .env and replace with your credentials
 ```
@@ -36,12 +36,12 @@ Start the service:
 node server.js
 ```
 
-Open a new terminal, start the trader ( /trader/ ):
+Open a new terminal, start the trader ( **/trader/** ):
 ```
 node server.js
 ```
 
-Required environmental variables for frontend server ( /frontend/ ) </br>
+Required environmental variables for frontend server ( **/frontend/** ) </br>
 Copy the .env.example to .env and replace with your credentials
 ```
 REACT_APP_URL=http://localhost:3000
