@@ -14,14 +14,14 @@ git clone https://github.com/mjansrud/mBot.git
 **Repeat for every folder**
 1) Change directory to each sub-repository, command for changing directory will not be repeated
 ```
-cd mBot/api
+cd mBot/backend
 ```
 2) Install the node modules required
 ```
 npm install
 ```
 
-Required environmental variables for API server ( folder **/api/** ) </br>
+Required environmental variables for the backend server ( folder **/backend/** ) </br>
 1) Create an account at [**Auth0**](http://auth0.com/), make a new API and Single Page Application Client
 2) Copy the .env.example to .env and replace with your credentials
 ```
@@ -40,14 +40,8 @@ Start the service:
 ```
 node server.js
 ```
-
-Open a new terminal, start the trader ( **/trader/** ):
-```
-node server.js
-```
-
-Required environmental variables for frontend server ( **/frontend/** ) </br>
-Copy the .env.example to .env and replace with your credentials
+1) Required environmental variables for the frontend server ( **/frontend/** ) </br>
+2) Copy the .env.example to .env and replace with your credentials
 ```
 REACT_APP_URL=http://localhost:3000
 REACT_APP_URL_API=http://localhost:3001
